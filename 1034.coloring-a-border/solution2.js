@@ -6,7 +6,7 @@
  * @param {number} color
  * @return {number[][]}
  */
- var colorBorder = function(grid, row, col, color) {
+var colorBorder = function(grid, row, col, color) {
   const direction = [[-1, 0], [0, 1], [1, 0], [0, -1]]
   const n = grid.length, m = grid[0].length
   const visited = new Array(n).fill(0).map(() => new Array(m).fill(false))
